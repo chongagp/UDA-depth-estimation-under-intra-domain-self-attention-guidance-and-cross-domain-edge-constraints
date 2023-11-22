@@ -1,5 +1,5 @@
 # UDA-depth-estimation-under-intra-domain-self-attention-guidance-and-cross-domain-edge-constraints
-![Framework](https://github.com/chongagp/UDA-depth-estimation-under-intra-domain-self-attention-guidance-and-cross-domain-edge-constraints/blob/main/code/img/Algorithm%20framework.jpg)
+![Framework](https://github.com/chongagp/UDA-depth-estimation-under-intra-domain-self-attention-guidance-and-cross-domain-edge-constraints/blob/main/img/framework.jpg)
 ## Environment
 1. Python 3.7
 2. PyTorch 1.8.0
@@ -33,7 +33,7 @@ python train.py --freeze_bn --freeze_in --model Total --gpu_ids 0 --batchSize 3 
 
 ## Test
 
-Copy the provided models to code/checkpoints/vkitti2kitti_Total/, and rename the models 1_* (e.g., 1_net_D_Src.pth), and then
+Copy the provided models to ./checkpoints/vkitti2kitti_Total/, and rename the models 1_* (e.g., 1_net_D_Src.pth), and then
 ```
 python test.py --test_datafile 'test.txt' --which_epoch 1 --model Total --gpu_ids 0 --batchSize 1 --loadSize 192 640
 ```
