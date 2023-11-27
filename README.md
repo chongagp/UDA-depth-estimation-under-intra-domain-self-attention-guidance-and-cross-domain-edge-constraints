@@ -14,7 +14,7 @@
 [Make3D](http://make3d.cs.cornell.edu/data.html)(FOR TEST)
 
 
-## Training (NVIDIA GeForce RTX 3090, 16GB)
+## Training (NVIDIA GeForce RTX 3090, 24GB)
 
 - Train F_t
 ```
